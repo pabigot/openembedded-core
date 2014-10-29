@@ -20,12 +20,11 @@ LIC_FILES_CHKSUM = "\
 "
 
 DEPENDS = "attr libaio libcap acl openssl zip-native"
-SRCREV = "f4c3bfe1eab51eb72caeb0f3336d2790c9a8bd1b"
+SRCREV = "2c341ad9177f36d9b953e84dee8cf88498286fe5"
 
 SRC_URI = "git://github.com/linux-test-project/ltp.git \
     file://0001-Rename-runtests_noltp.sh-script-so-have-unique-name.patch \
     file://ltp-Do-not-link-against-libfl.patch \
-    file://automake-foreign.patch \
     file://make-setregid02-work.patch \
     file://add-knob-for-numa.patch \
     file://0001-Realtime-tests-Fix-bad-priority-inheritance-conditio.patch \
